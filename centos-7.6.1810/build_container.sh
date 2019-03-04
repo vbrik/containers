@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t localhost:5000/vbrik:latest .
+docker build -t vbrik/centos:7.6.1810 .
