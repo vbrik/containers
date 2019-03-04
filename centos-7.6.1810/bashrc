@@ -1,0 +1,10 @@
+alias vi="vim"
+
+alias l="ls -lh"
+alias la="ls -lah"
+alias lart="ls -larth"
+alias g="grep --color=auto"
+alias gr="grep --color=auto -r"
+alias gi="grep --color=auto -i"
+alias gir="grep --color=auto -ir"
+
