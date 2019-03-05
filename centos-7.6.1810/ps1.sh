@@ -1,5 +1,5 @@
 if [[ ${EUID} == 0 ]] ; then
-    export PS1="\[\e[37m\]\[\e[7m\]\h \[\e[0m\] \[\e[01;34m\]\W\n#\[\e[00m\] "
+    export PS1="\n\[\e[02;36m\]\h \[\e[00m\]\[\e[01;34m\]\w\n#\[\e[00m\] "
 else
-    export PS1="\[\e[37m\]\h \[\e[01;34m\]\W\n\$\[\e[00m\] "
+    export PS1="\n\[\e[02;36m\]\h \[\e[00m\]\[\e[01;34m\]\w\n$\[\e[00m\] "
 fi
