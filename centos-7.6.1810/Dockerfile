@@ -17,4 +17,5 @@ ADD inputrc /etc/inputrc
 
 RUN updatedb
 
+WORKDIR /root
 ENTRYPOINT ["/bin/bash", "-l"]
