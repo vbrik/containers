@@ -1,4 +1,4 @@
-FROM vbrik/centos:7.6.1810
+FROM vbrik/centos:7.7.1908
 
 RUN yum install -y yum-plugin-priorities # needed for OSG repos, apparently
 RUN yum install -y https://repo.opensciencegrid.org/osg/3.4/osg-3.4-el7-release-latest.rpm
