@@ -7,6 +7,7 @@ RUN yum install -y vo-client voms-clients-cpp \
                     globus-gass-copy-progs \
                     gfal2-util gfal2-plugin-gridftp gfal2-plugin-file \
                     openssl htop
+RUN yum install -y stashcache-client xrootd-client
 RUN yum update -y
 
 RUN updatedb
